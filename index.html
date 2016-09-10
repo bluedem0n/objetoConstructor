@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Objeto Constructor</title>
+        <link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
+    </head>
+    <body>
+        <h1 class="text-center">Persona</h1>
+        <form class="form-horizontal">
+            <div class="form-group">
+                <label for="nombre" class="control-label col-xs-3">Nombre:</label>
+                <div class="col-xs-4">
+                    <div class="input-group">
+                        <input type="text" name="nombre" id="nombre" class="form-control" placeholder="Ingresa tu nombre">
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="edad" class="control-label col-xs-3">Edad:</label>
+                <div class="col-xs-4">
+                    <div class="input-group">
+                        <input type="number" name="edad" id="edad" class="form-control" placeholder="Ingresa tu Edad">
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="tiempo" class="control-label col-xs-3">Sexo:</label>
+                <div class="col-xs-4">
+                    <div class="input-group">
+                        <input type="text" name="sexo" id="sexo" class="form-control" placeholder="Ingresa tu Sexo">
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-xs-offset-3 col-xs-4">
+                    <button type="button" id="mostrar" class="btn btn-primary">Enviar</button>
+                </div>
+            </div>
+        </form>
+        <div class="col-xs-offset-3 col-xs-4">
+            <div class="panel panel-default">
+                <div class="panel-body" id="resultado">Resultado</div>
+            </div>
+        </div>
+        <script type="text/javascript" src="js/app.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    </body>
+</html>
